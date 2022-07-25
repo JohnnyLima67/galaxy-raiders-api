@@ -4,7 +4,7 @@ import galaxyraiders.core.physics.Point2D
 import galaxyraiders.core.physics.Vector2D
 
 class Explosion(
-  var time: Int = 1000,
+  var time: Int = 10,
   initialPosition: Point2D,
   initialVelocity: Vector2D,
   radius: Double,
